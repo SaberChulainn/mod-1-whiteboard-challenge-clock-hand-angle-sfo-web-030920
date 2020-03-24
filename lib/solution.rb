@@ -6,9 +6,6 @@ def clock_angle(time)
     
     greatest_angle = min_angle > hour_angle ? min_angle : hour_angle
     least_angle = min_angle > hour_angle ? hour_angle : min_angle
-    if greatest_angle == 360
-      greatest_angle = 0 
-    end
     result = greatest_angle - least_angle
     
       return result
