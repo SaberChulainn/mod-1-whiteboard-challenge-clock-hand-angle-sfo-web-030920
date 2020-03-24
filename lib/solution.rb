@@ -11,9 +11,6 @@ def clock_angle(time)
     end
     result = greatest_angle - least_angle
     
-    if result == 360
-      result = 0 
-    end
       return result
     
 end
